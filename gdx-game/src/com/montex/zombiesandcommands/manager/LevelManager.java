@@ -20,6 +20,7 @@ public class LevelManager {
 		map = new TmxMapLoader().load("levels/demo2/demo2.tmx");
 		
 		SpriteManager.commands = new Array<>();
+		SpriteManager.zombies = new Array<>();
 		SpriteManager.bullets = new Array<>();
 		SpriteManager.players = new Array<>();
 		

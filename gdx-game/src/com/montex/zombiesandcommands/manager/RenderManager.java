@@ -30,7 +30,7 @@ public class RenderManager
 		
 		
 		
-		shaper.begin(ShapeRenderer.ShapeType.Line);
+		/*shaper.begin(ShapeRenderer.ShapeType.Line);
 		
 		for(Unit u : SpriteManager.allUnits()){
 
@@ -44,7 +44,7 @@ public class RenderManager
 
 		}
 		
-		shaper.end();
+		shaper.end();*/
 		
 		batch.begin();
 
@@ -88,7 +88,7 @@ public class RenderManager
 		
 		shaper.end();
 		
-		BitmapFont bfnt = new BitmapFont();
+		/*BitmapFont bfnt = new BitmapFont();
 		
 		bfnt.setColor(Color.RED);
 		
@@ -99,6 +99,8 @@ public class RenderManager
 		}
 		
 		batch.end();
+		
+		*/
 		
 	}
 
